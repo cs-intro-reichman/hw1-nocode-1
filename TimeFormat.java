@@ -26,9 +26,6 @@ public class TimeFormat {
 			} else {
 				System.out.print(minutes);
 			} 
-
-		
-
 		}
 
 		if (convert < 12) {
