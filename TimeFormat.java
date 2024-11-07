@@ -13,11 +13,9 @@ public class TimeFormat {
 				newTime = 12;
 			}
 
-			if (newTime < 10) {
-				System.out.print("0" + newTime + ":");
-			} else {
-				System.out.print(newTime + ":");
-			}
+			
+			System.out.print(newTime + ":");
+			
 
 			if (minutes < 10 ) {
 				System.out.print("0" + minutes);
