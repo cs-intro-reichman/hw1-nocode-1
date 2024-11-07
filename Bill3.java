@@ -12,6 +12,6 @@ public class Bill3 {
 
 		double finalSum = Math.ceil((double) sum / 3);
 
-		System.out.println("Dear  " + name3 + ", " + name2 + " and " + name1 + ": pay " + finalSum + " Shekel each.");
+		System.out.println("Dear  " + name3 + ", " + name2 + ", and " + name1 + ": pay " + finalSum + " Shekel each.");
 	}
 }
