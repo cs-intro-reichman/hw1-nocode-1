@@ -14,11 +14,21 @@ public class TimeFormat {
 				newTime = 12;
 			}
 
-			if (minutes < 10) {
-				System.out.print(newTime + ":" + "0" + minutes);
-			} else {
-				System.out.print(newTime + ":" + minutes);
+			if (newTime < 10 ) {
+				
+				System.out.print("0" + newTime + ":");
+			}else{
+				System.out.println(newTime + ":");
 			}
+
+			if (minutes < 10 ) {
+				System.out.print("0" + minutes);
+			} else {
+				System.out.print(minutes);
+			} 
+
+		
+
 		}
 
 		if (convert < 12) {
