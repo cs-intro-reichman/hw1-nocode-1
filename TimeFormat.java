@@ -9,8 +9,8 @@ public class TimeFormat {
 
 
 		
-        if (hours == 0) {
-            System.out.print("00:");  
+        if (hours == 0 && minutes == 00) {
+            System.out.print("00:00");  
         } else {
             
             int newTime = hours % 12;
