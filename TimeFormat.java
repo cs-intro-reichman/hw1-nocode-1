@@ -7,18 +7,16 @@ public class TimeFormat {
 
 		int convert = hours;
 
-		if (12 > hours || hours < 24) {
 
 			int newTime = hours % 12;
 			if (newTime == 0) {
 				newTime = 12;
 			}
 
-			if (newTime < 10 ) {
-				
+			if (newTime < 10) {
 				System.out.print("0" + newTime + ":");
-			}else{
-				System.out.println(newTime + ":");
+			} else {
+				System.out.print(newTime + ":");
 			}
 
 			if (minutes < 10 ) {
@@ -26,7 +24,7 @@ public class TimeFormat {
 			} else {
 				System.out.print(minutes);
 			} 
-		}
+		
 
 		if (convert < 12) {
 			System.out.print(" AM");
