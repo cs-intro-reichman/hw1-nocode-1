@@ -29,7 +29,7 @@ public class TimeFormat {
 		if (convert < 12) {
 			System.out.print(" AM");
 		} else {
-			System.out.println(" PM");
+			System.out.print(" PM");
 		}
 
 	}
