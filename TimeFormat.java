@@ -8,11 +8,13 @@ public class TimeFormat {
 		int convert = hours;
 
 
-			int newTime = hours % 12;
-			if (newTime == 0 && hours == 0) {
-				newTime = 12;
-			}
-
+		if (hours == 0) {
+            System.out.print("00:");  
+        } else {
+            int newTime = hours % 12;
+            if (newTime == 0) {
+                newTime = 12; 
+            }
 			
 			System.out.print(newTime + ":");
 			
@@ -23,7 +25,7 @@ public class TimeFormat {
 				System.out.print(minutes);
 			} 
 		
-
+		} 
 		if (convert < 12) {
 			System.out.print(" AM");
 		} else {
