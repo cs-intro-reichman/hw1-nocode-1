@@ -9,7 +9,7 @@ public class TimeFormat {
 
 
 			int newTime = hours % 12;
-			if (newTime == 0) {
+			if (newTime == 0 && hours == 0) {
 				newTime = 12;
 			}
 
