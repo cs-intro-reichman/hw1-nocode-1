@@ -10,7 +10,7 @@ public class TimeFormat {
 
 		
         if (hours == 0 && minutes == 00) {
-            System.out.print("00:00");  
+            System.out.print("0:00");  
         } else {
             
             int newTime = hours % 12;
