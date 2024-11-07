@@ -8,12 +8,14 @@ public class TimeFormat {
 		int convert = hours;
 
 
-		if (hours == 0) {
+		
+        if (hours == 0) {
             System.out.print("00:");  
         } else {
+            
             int newTime = hours % 12;
             if (newTime == 0) {
-                newTime = 12; 
+                newTime = 12;  
             }
 			
 			System.out.print(newTime + ":");
